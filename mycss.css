@@ -1,0 +1,40 @@
+.grid-container {
+    display: inline-grid;
+    
+    grid-auto-flow: column;
+    grid-column-gap: 20px;
+    padding: 0 0;
+  }
+  .card-img-size{
+    width: 100%;
+    height: 250px;
+  }
+  .mouseIn{
+    overflow:hidden;
+    
+  }
+ 
+  .mouseIn img{
+    transform: scale(1);
+    transition:0.5s;
+  }
+  .mouseIn:hover img{
+    transform: scale(1.1);
+
+  }
+  .mouseIn:hover{
+    border-radius: 10%;
+
+  }
+  .gotop {
+
+    position: fixed;
+    right: 20px;
+    bottom: 20px;    
+    padding: 10px 15px;    
+    font-size: 20px;
+    background: #777;
+    color: white;
+    cursor: pointer;
+}
+  
